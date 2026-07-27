@@ -2,8 +2,8 @@
   "name": "音声入力 Assistant",
   "short_name": "音声入力",
   "description": "Web Speech APIを使用した音声入力アシスタント",
-  "start_url": "./?mode=button-only",
-  "scope": "/",
+  "start_url": "/mic/?mode=button-only",
+  "scope": "/mic/",
   "display": "minimal-ui",
   "background_color": "#000000",
   "theme_color": "#ff8c00",
@@ -33,7 +33,7 @@
   "shortcuts": [
     {
       "name": "音声認識を開始",
-      "url": "./?mode=button-only&action=start-recording",
+      "url": "/mic/?mode=button-only&action=start-recording",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><circle cx='48' cy='48' r='45' fill='%23ff8c00'/><circle cx='48' cy='35' r='10' fill='%23fff'/><path d='M 48 55 Q 36 62 28 75 M 48 55 Q 60 62 68 75' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/></svg>",
